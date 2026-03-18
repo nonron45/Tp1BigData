@@ -3,7 +3,7 @@ import dask.dataframe as dd
 import time
 import os
 
-file = "2019-Oct.csv"
+file = "../2019-Oct.csv"
 
 # =====================================
 #  METHOD 1 : PANDAS WITH CHUNKS
