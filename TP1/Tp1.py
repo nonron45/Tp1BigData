@@ -110,7 +110,7 @@ for topic in topics:
 
 final_data = all_data[:1200]
 
-with open("iot_final_dataset.csv","w",newline="",encoding="utf-8-sig") as f:
+with open("../TP2/iot_final_dataset.csv", "w", newline="", encoding="utf-8-sig") as f:
 
     writer = csv.DictWriter(
         f,
